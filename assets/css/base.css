@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe Ui', 'Arial', 'sans-serif';
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    padding: .2rem;
+}
+
+header, footer {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,40,177,1) 100%);
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .menu {
+    display: none;
+}
+
+footer {
+    flex-direction: column;
+    justify-content: center;
+
+/*     position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    margin-top: 3rem; */
+}
+
+.bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+    margin-top: 4rem;
+}
+
+footer p {
+    margin-bottom: 1rem;
+}
+
+
+header a, footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header a#logo {
+    font-size: 1.8rem;
+    transition: color .5s ease;
+}
+
+header a#logo:hover {
+    color: #da0a0a;
+    transition: color .5s ease;
+}
+
+header nav a, footer a, .menu {
+    margin-right: .7rem;
+    padding: .5rem 1rem;
+    background-color: #b10808;
+    border-radius: 1.2rem;
+    transition: background-color .5s ease;
+}
+
+header nav a:hover, footer a:hover, .menu:hover {
+    color: #b10808;
+    background-color: #fff;
+    transition: background-color .5s ease;
+}
+
+.error {
+    font-size: 1.2rem;
+    color: #f00;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.warning {
+    font-size: 1.2rem;
+    color: rgb(255, 136, 0);
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+.information {
+    font-size: 1.2rem;
+    color: rgb(0, 110, 255);
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.information a, .error a, .warning a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+    header .menu {
+        display: inline-block;
+    }
+
+    nav.show {
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,40,177,1) 100%);
+        position: absolute;
+        top: 4.3rem;
+        left: 0;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        text-align: center
+    }
+
+    nav.show a {
+        margin-bottom: 2rem;
+        width: 50%;
+    }
+
+    header nav {
+        display: none;
+    }
+}

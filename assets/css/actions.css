@@ -1,0 +1,55 @@
+h1 {
+    font-size: 3rem;
+    margin-top: .5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Noir';
+}
+
+table, tr, td, th {
+    border: 1px solid blue;
+    border-collapse: collapse;
+}
+
+table {
+    margin: 2rem auto;
+    font-size: 1.2rem;
+}
+
+td, th {
+    text-align: left;
+    padding: .9rem;
+}
+
+.heading {
+    font-weight: bolder;
+}
+
+.button {
+    padding: .5rem 1rem;
+    background-color: #b10808;
+    color: #fff;
+    border-radius: 1.2rem;
+    transition: background-color .5s ease;
+    text-decoration: none;
+    margin-bottom: .5rem;
+}
+
+.button:hover {
+    color: #b10808;
+    background-color: #fff;
+    transition: background-color .5s ease;
+}
+
+.buttons {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}

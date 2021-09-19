@@ -1,0 +1,42 @@
+:is(input[type="text"], input[type="password"], input[type="email"], input[type="tel"]) {
+    appearance: none;
+    background-color: #000;
+    color: #00f;
+    outline: none;
+    border: 1px solid #00f;
+    border-radius: .1rem;
+    padding: .5rem;
+    width: 280px;
+    height: 30px;
+}
+
+select {
+    background-color: #000;
+    color: #00f;
+    outline: none;
+    border: 1px solid #00f;
+    border-radius: .1rem;
+    width: 280px;
+    height: 30px;
+}
+
+:is(input[type = "button"], input[type = "submit"]) {
+    appearance: none;
+    outline: none;
+    border: none;
+    padding: .5rem 1rem;
+    background-color: #b10808;
+    color: #fff;
+    border-radius: 1.2rem;
+    transition: background-color .5s ease;
+}
+
+:is(input[type = "button"]:hover, input[type = "submit"]:hover) {
+    color: #b10808;
+    background-color: #fff;
+    transition: background-color .5s ease;
+}
+
+input::placeholder {
+    color: #fff;
+}

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #038cb9;
+    font-family: 'League Spartan Bold', "Calibri";
+}
+
+.container {
+    color: #fff;
+    margin: 3rem;
+}
+
+#face {
+    font-size: 10rem
+}
+
+h4, h3 {
+    margin: 1.2rem 0;
+}
+
+.container a {
+    color: #fff;
+}
+
+.error {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.qr {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    margin-top: .5rem;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+}

@@ -1,0 +1,27 @@
+main {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+main h1 {
+    font-family: 'Noir';
+    font-size: 3rem;
+}
+
+main form {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.field {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-bottom: 1rem;
+}

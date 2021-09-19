@@ -1,0 +1,24 @@
+h1 {
+    font-size: 3rem;
+    font-family: 'Noir';
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+h2 {
+    font-size: 2.2rem;
+    font-family: 'Noir';
+}
+
+p {
+    font-size: 1rem;
+}
+
+p span {
+    font-family: 'Consolas', 'Monospace';
+    color: #f00;
+}
+
+.item {
+    margin-bottom: 4rem;
+}
