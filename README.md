@@ -1,4 +1,4 @@
-# IP-622-Assignment
+# Internet Programming 622 - Assignment
 Contains the project files for my Internet Programming 622 assignment
 
 # Attributions
